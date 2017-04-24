@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:padding="20dp" >
+
+    <EditText
+        android:id="@+id/dialogName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textName"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/dialog_custom"
+        android:gravity="center"
+        android:hint="Name"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textDOB"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialogName"
+        android:layout_marginTop="20dp"
+        android:text="Date of Birth "
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/dialogDOB"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textDOB"
+        android:layout_centerHorizontal="true"
+       android:background="@drawable/dialog_custom"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:hint="Date of Birth"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textName"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Name"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
